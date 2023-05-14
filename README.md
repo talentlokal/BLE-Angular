@@ -19,3 +19,18 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 Go to [palette generator](http://mcg.mbitson.com/) and choose the colors you like.
 Copy the Angular JS 2 theme to _palette.scss.
 
+
+## Deploy to GitHub Pages
+ng build --base-href "https://talentlokal.github.io/BLE-Angular/"
+
+cd dist/ble-angular
+
+git add .
+
+git commit -m "Initial commit"
+
+git checkout -b gh-pages
+
+git push
+
+
