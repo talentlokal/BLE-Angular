@@ -1,0 +1,61 @@
+.mat-toolbar-row {
+  background-color: rgb(255, 255, 255);
+  color: rgb(17, 24, 39);
+  height: 130px;
+}
+
+.logo-lg {
+  height: 60px;
+}
+
+.logo-sm {
+  height: 40px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.nav-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-items li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.nav-items li:last-child {
+  margin-right: 0;
+}
+
+.social-icons {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  #footer {
+    position: static;
+  }
+}
+
+.footer-container {
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  text-align: center;
+}

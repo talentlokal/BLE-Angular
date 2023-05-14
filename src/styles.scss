@@ -1,0 +1,35 @@
+@import "_theme.scss";
+@import "assets/css/main.css";
+@import "assets/css/4afa105c6a07f354.css";
+
+html {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: Lato, "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+  word-break: break-word;
+}
+
+mat-toolbar {
+  flex-shrink: 0;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+#footer {
+  flex-shrink: 0;
+}
+
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 130px); // 130px ist die Höhe Ihrer Toolbar
+}
