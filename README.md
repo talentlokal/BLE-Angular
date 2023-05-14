@@ -33,4 +33,5 @@ git checkout -b gh-pages
 
 git push
 
-
+Result can be seen here https://talentlokal.github.io/BLE-Angular/home
+But be aware that the gh-pages branch is not the main branch and therefore not always up to date.
