@@ -1,0 +1,26 @@
+{
+  "menu": {
+    "nav": [
+      {
+        "name": "Startseite",
+        "url": "/"
+      },
+      {
+        "name": "Informationen",
+        "url": "/subpage"
+      },
+      {
+        "name": "Produkte",
+        "url": "/productpage"
+      },
+      {
+        "name": "Über uns",
+        "url": "/about"
+      }
+    ],
+    "logo": {
+      "alt": "Bernhard Loth Einrichtungen Logo",
+      "url": "assets/img/logo.png"
+    }
+  }
+}

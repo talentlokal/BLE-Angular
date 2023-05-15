@@ -1,0 +1,114 @@
+{
+  "landingSection": {
+    "backgroundImage": "assets/img/office.webp",
+    "headline": "Loth Einrichtungen – Ihr Experte für gewerbliche Einrichtungslösungen!",
+    "text": "Suchen Sie nach einer individuellen und kreativen Lösung für Ihre gewerblichen Räumlichkeiten? Sie sind hier genau richtig! Unser engagiertes Team von Loth Einrichtungen steht bereit, um Ihre Arbeitsumgebung zu optimieren und Mehrwerte für Ihr Unternehmen zu schaffen.",
+    "buttonText": "Kontaktieren Sie uns",
+    "buttonHref": "/contact"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "items": [
+      {
+        "id": "service-1",
+        "image": "assets/img/office.webp",
+        "alt": "Büro- und Objekteinrichtung",
+        "title": "Büro- und Objekteinrichtung",
+        "description": "Entdecken Sie unsere Büro- und Objekteinrichtungslösungen, die auf 30 Jahren Erfahrung basieren, gesetzliche Vorgaben berücksichtigen und optimale, budgetgerechte Einrichtungskonzepte bieten, um den Erwartungen Ihrer Mitarbeiter und Kunden gerecht zu werden.",
+        "link": "#",
+        "linkText": "Zu den Herstellern"
+      },
+      {
+        "id": "service-2",
+        "image": "assets/img/office.webp",
+        "alt": "Planung und Beratung",
+        "title": "Planung und Beratung",
+        "description": "Erleben Sie unsere detaillierten Büroplanungslösungen, einschließlich 2D-Grundrissplanung und fotorealistischer 3D-Visualisierung, die Ihnen helfen, den Gestaltungsspielraum zu erkennen und gesetzliche Vorgaben einzuhalten, bevor Sie in Ihre neue Einrichtung investieren.",
+        "link": "#contact",
+        "linkText": "Unverbindliche Anfrage"
+      },
+      {
+        "id": "service-3",
+        "image": "assets/img/office.webp",
+        "alt": "Ausstellung",
+        "title": "Ausstellung",
+        "description": "Besuchen Sie unsere Ausstellungen in Berlin, Dresden und Leipzig, um eine Vielzahl von Büromöbeln, Designermöbeln und mehr auszuprobieren. Vereinbaren Sie einen Termin, um Ihre Raumplanung zu besprechen und gemeinsam die perfekte Einrichtungskombination schnell und unkompliziert zu finden.",
+        "link": "#",
+        "linkText": "Mehr Informationen"
+      }
+    ]
+  },
+  "galleryImages": {
+    "title": "Gallerie",
+    "images": [
+      {
+        "src": "assets/img/office.webp",
+        "alt": "Bildbeschreibung"
+      },
+      {
+        "src": "assets/img/office.webp",
+        "alt": "Bildbeschreibung"
+      },
+      {
+        "src": "assets/img/office.webp",
+        "alt": "Bildbeschreibung"
+      },
+      {
+        "src": "assets/img/office.webp",
+        "alt": "Bildbeschreibung"
+      },
+      {
+        "src": "assets/img/office.webp",
+        "alt": "Bildbeschreibung"
+      },
+      {
+        "src": "assets/img/office.webp",
+        "alt": "Bildbeschreibung"
+      }
+    ]
+  },
+  "aboutSection": {
+    "sectionTitle": "Loth Einrichtungen",
+    "sectionSubtitle": "Ihr Partner für gewerbliche Einrichtungslösungen",
+    "credoTitle": "Unser Credo:",
+    "credoText": "Mit viel Erfahrung Zuhören. Kreative Lösungen finden. Mehrwerte schaffen. Das können Sie von uns erwarten.",
+    "whoTitle": "Wer sind wir?",
+    "whoText": "Wir sind ein engagiertes Team von Experten, das sich auf die Planung und Gestaltung von gewerblichen Einrichtungen spezialisiert hat. Seit unserer Gründung haben wir es uns zur Aufgabe gemacht, unseren Kunden Zeit und Mühe zu ersparen, indem wir uns um jedes Detail kümmern: Gestaltung, Produkte, Preis und Lieferzeit.",
+    "differenceTitle": "Was unterscheidet uns von anderen?",
+    "differenceText": "Obwohl wir nicht die Einzigen sind, die Beratung und Planung im Bereich gewerblicher Einrichtungen anbieten, sind wir davon überzeugt, dass unsere Leidenschaft, unsere sorgfältige Arbeitsweise und unser Engagement für maßgeschneiderte Lösungen uns von der Konkurrenz abheben. Wir betrachten jedes Projekt aus der Perspektive unserer Kunden und suchen nach Lösungen, die wirklich zu ihrem Unternehmen passen und es voranbringen.",
+    "expertiseTitle": "Unsere Expertise:",
+    "expertiseText": "Wir legen größten Wert darauf, dass unsere Planerinnen und Planer über fundiertes Fachwissen und aktuelle Kenntnisse verfügen. Deshalb sind alle unsere Planungen entweder von einer Architektin oder einer zertifizierten Arbeitsplatzexpertin (von der renommierten Mensch und Büro Akademie) durchgeführt. Auf diese Weise stellen wir sicher, dass wir stets den gesetzlichen Vorschriften entsprechen und neueste Erkenntnisse in unsere Einrichtungskonzepte einfließen lassen.",
+    "howTitle": "Wie können Sie von unserem Know-How profitieren?",
+    "howText": "Es ist ganz einfach: Vereinbaren Sie ein erstes, kostenloses und unverbindliches Beratungsgespräch mit uns. In diesem Gespräch erhalten Sie wertvolle Tipps und Anregungen, die Ihnen garantiert weiterhelfen.",
+    "contactTitle": "Kontaktieren Sie uns gerne.",
+    "phoneText": "Rufen Sie uns an unter",
+    "phoneNumber": "0351/4468840",
+    "phoneTime": "(Mo.-Do. 9-16 Uhr, Fr. 9-14 Uhr)",
+    "closingText": "Wir freuen uns darauf, Sie und Ihr Unternehmen kennenzulernen und gemeinsam mit Ihnen die optimale Einrichtungslösung für Ihren Bedarf zu finden."
+  },
+  "bernhard": {
+    "backgroundColor": "rgb(237, 237, 237)",
+    "image": {
+      "src": "assets/img/office.webp",
+      "alt": "Bernhard's Profilbild"
+    },
+    "heading": "Hallo, mein Name ist Bernhard Loth und ich bin der Gründer von Bernhard Loth Einrichtungen. Mit Herzblut und Engagement setze ich mich jeden Tag dafür ein, einzigartige, funktionale und stilvolle Lösungen für meine Kunden zu entwickeln. Meine Erfahrungen und mein geschultes Auge für Details ermöglichen es mir, individuelle Raumkonzepte zu kreieren, die auf die Bedürfnisse und Wünsche meiner Kunden zugeschnitten sind.",
+    "subheading": "- Bernhard Loth, Gründer"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns - Gemeinsam gestalten wir Ihren optimalen Arbeitsplatz",
+    "text1": "Ihre Zufriedenheit ist unser oberstes Ziel bei Loth Einrichtungen. Wir wissen, dass jeder Kunde einzigartig ist und individuelle Bedürfnisse hat. Deshalb nehmen wir uns die Zeit, um Ihre Wünsche und Anforderungen zu verstehen und Ihnen maßgeschneiderte Lösungen für Ihre Räumlichkeiten anzubieten. Egal, ob Sie einen einzelnen Arbeitsplatz einrichten oder ein ganzes Büro planen - bei uns sind Sie richtig!",
+    "text2": "Füllen Sie einfach das Kontaktformular aus und unser engagiertes Team wird sich schnellstmöglich mit Ihnen in Verbindung setzen, um",
+    "name": "Ihr Name",
+    "email": "Ihre E-Mail-Adresse",
+    "phone": "Ihre Telefonnummer",
+    "subject": "Ihr Anliegen",
+    "message": "Ihre Nachricht an unsere Experten",
+    "submit": "Senden",
+    "success": "Vielen Dank für Ihre Nachricht. Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen.",
+    "error": "Leider ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.",
+    "privacy": "Mit dem Absenden erklären Sie sich mit unserer Datenschutzerklärung einverstanden.",
+    "privacyLink": "/datenschutz",
+    "privacyLinkText": "Datenschutzerklärung"
+  }
+}
