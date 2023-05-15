@@ -1,1 +1,29 @@
-<p>about works!</p>
+<section class="flex-shrink-0" style="background-color: rgb(51, 51, 51);"
+         *ngIf="aboutContent$ | async as about">
+  <div class="container mx-auto py-12 lg:py-14 xl:py-20">
+    <div class="flex flex-col lg:flex-row w-full gap-10 lg:gap-20 items-start">
+      <div class="flex-1 flex flex-col items-center lg:items-start">
+        <div class="rich-text-block" style="color: rgb(255, 255, 255);">
+          <h3 style="text-align:justify">{{about.title}}</h3>
+          <p style="text-align:justify">{{about.text}}</p>
+        </div>
+      </div>
+
+
+      <div class="flex-1 flex w-full justify-center lg:justify-start">
+        <div class="flex-shrink-0 relative w-full mx-auto aspect-w-16 aspect-h-9">
+          <span class="avatar">
+            <img
+              alt="{{about.ceo.alt}}" sizes="100vw"
+              srcset="{{about.ceo.avatar}}"
+              src="{{about.ceo.avatar}}"
+              decoding="async" data-nimg="fill">
+        </span>
+          <span class="name">{{about.ceo.name}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<app-contact></app-contact>
