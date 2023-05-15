@@ -94,39 +94,5 @@
     },
     "heading": "Hallo, mein Name ist Bernhard Loth und ich bin der Gründer von Bernhard Loth Einrichtungen. Mit Herzblut und Engagement setze ich mich jeden Tag dafür ein, einzigartige, funktionale und stilvolle Lösungen für meine Kunden zu entwickeln. Meine Erfahrungen und mein geschultes Auge für Details ermöglichen es mir, individuelle Raumkonzepte zu kreieren, die auf die Bedürfnisse und Wünsche meiner Kunden zugeschnitten sind.",
     "subheading": "- Bernhard Loth, Gründer"
-  },
-  "contact": {
-    "title": "Kontaktieren Sie uns - Gemeinsam gestalten wir Ihren optimalen Arbeitsplatz",
-    "text1": "Ihre Zufriedenheit ist unser oberstes Ziel bei Loth Einrichtungen. Wir wissen, dass jeder Kunde einzigartig ist und individuelle Bedürfnisse hat. Deshalb nehmen wir uns die Zeit, um Ihre Wünsche und Anforderungen zu verstehen und Ihnen maßgeschneiderte Lösungen für Ihre Räumlichkeiten anzubieten. Egal, ob Sie einen einzelnen Arbeitsplatz einrichten oder ein ganzes Büro planen - bei uns sind Sie richtig!",
-    "text2": "Füllen Sie einfach das Kontaktformular aus und unser engagiertes Team wird sich schnellstmöglich mit Ihnen in Verbindung setzen, um",
-    "name": "Ihr Name",
-    "email": "Ihre E-Mail-Adresse",
-    "phone": "Ihre Telefonnummer",
-    "subject": "Ihr Anliegen",
-    "subjects": [
-      {
-        "value": "general",
-        "text": "Allgemeine Anfrage"
-      },
-      {
-        "value": "appointment",
-        "text": "Beratungstermin vereinbaren"
-      },
-      {
-        "value": "request",
-        "text": "Angebot anfordern"
-      },
-      {
-        "value": "other",
-        "text": "Sonstiges"
-      }
-    ],
-    "message": "Ihre Nachricht an unsere Experten",
-    "submit": "Senden",
-    "success": "Vielen Dank für Ihre Nachricht. Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen.",
-    "error": "Leider ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.",
-    "privacy": "Mit dem Absenden erklären Sie sich mit unserer Datenschutzerklärung einverstanden.",
-    "privacyLink": "/datenschutz",
-    "privacyLinkText": "Datenschutzerklärung"
   }
 }

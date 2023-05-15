@@ -22,8 +22,8 @@ export class ContentService {
 
   private loadContentData(): void {
     const contentFiles = [
-      'assets/content/home/menu.json',
-      'assets/content/home/footer.json',
+      'assets/content/core/menu.json',
+      'assets/content/core/footer.json',
       // ...
     ];
 

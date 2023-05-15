@@ -15,10 +15,10 @@ export class AppComponent implements OnInit {
   constructor(private contentService: ContentService, private el: ElementRef) {}
 
   ngOnInit(): void {
-    this.contentService.loadContentDataByName('home/menu.json')
+    this.contentService.loadContentDataByName('core/menu.json')
     this.menuContent$ = this.contentService.getContentById('menu');
 
-    this.contentService.loadContentDataByName('home/footer.json')
+    this.contentService.loadContentDataByName('core/footer.json')
     this.footerContent$ = this.contentService.getContentById('footer');
   }
 }

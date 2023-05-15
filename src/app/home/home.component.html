@@ -107,60 +107,7 @@
     </section>
 
     <!--Contact Section-->
-    <section class="flex-shrink-0" id="contact" *ngIf="contactContent$ | async as contact">
-      <div class="container mx-auto py-12 lg:py-14 xl:py-20">
-        <div class="flex flex-col w-full gap-10 lg:gap-20 lg:flex-row">
-          <div class="w-full lg:w-1/2" id="contact-text">
-            <h3>{{contact.title}}</h3>
-            <p>{{contact.text1}}</p>
-            <p>{{contact.text2}}</p>
-          </div>
-          <div class="w-full lg:w-1/2" id="contact-form">
-            <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
-              <div class="flex flex-col lg:flex-row gap-4 mb-4">
-                <div class="flex-1">
-                  <mat-form-field appearance="fill">
-                    <mat-label>{{contact.name}}</mat-label>
-                    <input matInput type="text" formControlName="contact-name">
-                  </mat-form-field>
-                </div>
-                <div class="flex-1">
-                  <mat-form-field appearance="fill">
-                    <mat-label>{{contact.email}}</mat-label>
-                    <input matInput type="email" formControlName="contact-email">
-                  </mat-form-field>
-                </div>
-              </div>
-              <div class="grid gap-4 w-full grid-cols-1 lg:grid-cols-2 mb-4">
-                <div class="flex flex-col md:min-w-40 w-full">
-                  <mat-form-field appearance="fill">
-                    <mat-label>{{contact.subject}}</mat-label>
-                    <mat-select formControlName="contact-subject">
-                      <mat-option *ngFor="let item of contact.subjects" [value]="item.value">{{item.text}}</mat-option>
-                    </mat-select>
-                  </mat-form-field>
-                </div>
-                <div class="w-full">
-                  <mat-form-field appearance="fill">
-                    <mat-label>{{contact.phone}}</mat-label>
-                    <input matInput type="text" formControlName="contact-phone" placeholder="" inputmode="numeric">
-                  </mat-form-field>
-                </div>
-              </div>
-              <div class="mb-4 w-full">
-                <mat-form-field appearance="fill" class="w-full">
-                  <mat-label>{{contact.message}}</mat-label>
-                  <textarea matInput rows="5" formControlName="contact-message"></textarea>
-                </mat-form-field>
-              </div>
-              <div class="flex flex-col md:flex-row justify-between items-start gap-4">
-                <button type="submit" [disabled]="!contactForm.valid" class="button primary lg w-36 mt-2 md:mt-0" id="contact-submit">{{contact.submit}}</button>
-              </div>
-          </form>
-          </div>
-        </div>
-      </div>
-    </section>
+    <app-contact></app-contact>
 
     <!-- Google Maps Section -->
     <section>
