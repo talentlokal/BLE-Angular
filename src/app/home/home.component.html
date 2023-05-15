@@ -1,12 +1,14 @@
 <ng-container>
   <div class="overflow-x-hidden" *ngIf="landingContent$ | async as landingContent">
-    <section class="landing-section flex-shrink-0 relative flex items-center min-h-120" [style]="'background-image: url(' + landingContent.backgroundImage + ')'">
+    <section class="landing-section flex-shrink-0 relative flex items-center min-h-120"
+             [style]="'background-image: url(' + landingContent.backgroundImage + ')'">
       <div class="landing-section-bg absolute inset-0"></div>
       <div class="relative container mx-auto px-6 z-10 py-12 lg:py-32 xl:py-40 text-8xl">
         <div class="max-w-3xl text-left ml-0 mr-auto">
           <h2 class="landing-section-h1 xl:text-7xl xl:leading-tight mb-4 text-left">{{landingContent.headline}}</h2>
           <p class="landing-section-text-body md:text-body-lg xl:text-2xl">{{landingContent.text}}</p>
-          <button mat-raised-button class="mat-button button primary xl mt-6 lg:mt-8 w-full md:w-max" color="accent" routerLink="{{landingContent.buttonHref}}">{{landingContent.buttonText}}</button>
+          <button mat-raised-button class="mat-button button primary xl mt-6 lg:mt-8 w-full md:w-max" color="accent"
+                  routerLink="{{landingContent.buttonHref}}">{{landingContent.buttonText}}</button>
         </div>
       </div>
     </section>
@@ -23,7 +25,8 @@
             <div class="text-center">
               <p class="text-xl lg:text-2xl xl:text-h3 font-medium mb-2">{{item.title}}</p>
               <div class="rich-text-block">{{item.description}}</div>
-              <a id="service-2-link" class="button primary lg mt-4" target="_self" [routerLink]="item.link">{{item.linkText}}</a>
+              <a id="service-2-link" class="button primary lg mt-4" target="_self"
+                 [routerLink]="item.link">{{item.linkText}}</a>
             </div>
           </div>
         </div>
@@ -33,7 +36,8 @@
     <!--Gallery Section-->
     <section id="gallery-section" class="flex-shrink-0" *ngIf="galleryImages$ | async as galleryImages">
       <div class="container mx-auto py-12 lg:py-14 xl:py-20">
-        <h2 id="gallery-title" class="text-h3 lg:text-h1 font-medium mb-4 lg:mb-10 text-center">{{galleryImages.title}}</h2>
+        <h2 id="gallery-title"
+            class="text-h3 lg:text-h1 font-medium mb-4 lg:mb-10 text-center">{{galleryImages.title}}</h2>
         <div class="gallery-carousel container mx-auto">
           <div id="gallery-grid" class="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-10 mb-6 md:mb-10">
             <div *ngFor="let image of galleryImages.images">
@@ -87,7 +91,8 @@
     </section>
 
     <!--Bernhard Section-->
-    <section id="bernhard-section" class="flex-shrink-0" *ngIf="bernhardContent | async as bernhard" [style.backgroundColor]="bernhard.backgroundColor">
+    <section id="bernhard-section" class="flex-shrink-0" *ngIf="bernhardContent | async as bernhard"
+             [style.backgroundColor]="bernhard.backgroundColor">
       <div class="container mx-auto pt-12 lg:pt-14 xl:pt-20 testimonials-carousel pb-12 lg:pb-14 xl:pb-20">
         <div class="flex h-full my-auto">
           <div class="max-w-5xl flex flex-col gap-4 justify-center text-center mx-auto items-center">
@@ -111,51 +116,49 @@
             <p>{{contact.text2}}</p>
           </div>
           <div class="w-full lg:w-1/2" id="contact-form">
-            <form novalidate="">
+            <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
               <div class="flex flex-col lg:flex-row gap-4 mb-4">
                 <div class="flex-1">
-                  <label class="mb-1 text-label" id="contact-name">{{contact.name}}</label>
-                  <input type="text" class="input border-none !shadow-none !placeholder-current" value=""></div>
+                  <mat-form-field appearance="fill">
+                    <mat-label>{{contact.name}}</mat-label>
+                    <input matInput type="text" formControlName="contact-name">
+                  </mat-form-field>
+                </div>
                 <div class="flex-1">
-                  <label class="mb-1 text-label" id="contact-email">{{contact.email}}</label>
-                  <input type="text" class="input border-none !shadow-none !placeholder-current" value=""></div>
+                  <mat-form-field appearance="fill">
+                    <mat-label>{{contact.email}}</mat-label>
+                    <input matInput type="email" formControlName="contact-email">
+                  </mat-form-field>
+                </div>
               </div>
               <div class="grid gap-4 w-full grid-cols-1 lg:grid-cols-2 mb-4">
                 <div class="flex flex-col md:min-w-40 w-full">
-                  <label class="mb-1 text-label text-current" id="contact-subject">{{contact.subject}}</label>
-                  <div class="w-full">
-                    <div class="relative">
-                      <button
-                        class="border-none !shadow-none !placeholder-current relative w-full border rounded-md shadow-sm pl-3 pr-9 py-2.5 text-left cursor-pointer focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 bg-white"
-                        id="headlessui-combobox-button-2" type="button" tabindex="-1" aria-haspopup="listbox"
-                        aria-expanded="false" data-headlessui-state=""><span
-                        class="block truncate">-</span><span
-                        class="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none"><svg
-                        xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        width="24" height="24" class="h-5 w-5 text-gray-400" style="color:#111827"><path
-                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                        d="m8 9 4-4 4 4m0 6-4 4-4-4"></path></svg></span></button>
-                    </div>
-                  </div>
+                  <mat-form-field appearance="fill">
+                    <mat-label>{{contact.subject}}</mat-label>
+                    <mat-select formControlName="contact-subject">
+                      <mat-option *ngFor="let item of contact.subjects" [value]="item.value">{{item.text}}</mat-option>
+                    </mat-select>
+                  </mat-form-field>
                 </div>
                 <div class="w-full">
-                  <label class="mb-1 text-label" id="contact-phone">{{contact.phone}}</label><input
-                  type="text" placeholder="0" class="input w-full border-none !shadow-none !placeholder-current"
-                  value="" inputmode="numeric"></div>
+                  <mat-form-field appearance="fill">
+                    <mat-label>{{contact.phone}}</mat-label>
+                    <input matInput type="text" formControlName="contact-phone" placeholder="" inputmode="numeric">
+                  </mat-form-field>
+                </div>
               </div>
-              <div class="mb-4">
-                <label class="mb-1 text-label" id="contact-message">{{contact.message}}</label>
-                <textarea class="input border-none !shadow-none !placeholder-current" placeholder=""
-                          rows="5"></textarea>
+              <div class="mb-4 w-full">
+                <mat-form-field appearance="fill" class="w-full">
+                  <mat-label>{{contact.message}}</mat-label>
+                  <textarea matInput rows="5" formControlName="contact-message"></textarea>
+                </mat-form-field>
               </div>
               <div class="flex flex-col md:flex-row justify-between items-start gap-4">
-                <button type="submit" class="button primary lg w-36 mt-2 md:mt-0" id="contact-submit">{{contact.submit}}
-                </button>
+                <button type="submit" [disabled]="!contactForm.valid" class="button primary lg w-36 mt-2 md:mt-0" id="contact-submit">{{contact.submit}}</button>
               </div>
-            </form>
+          </form>
           </div>
         </div>
-
       </div>
     </section>
 
