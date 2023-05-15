@@ -9,13 +9,13 @@
       <div class="w-full lg:w-1/2" id="contact-form">
         <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
           <div class="flex flex-col lg:flex-row gap-4 mb-4">
-            <div class="flex-1">
+            <div class="flex flex-col md:min-w-40 flex-1">
               <mat-form-field appearance="fill">
                 <mat-label>{{contact.name}}</mat-label>
                 <input matInput type="text" formControlName="contact-name">
               </mat-form-field>
             </div>
-            <div class="flex-1">
+            <div class="flex flex-col md:min-w-40 flex-1">
               <mat-form-field appearance="fill">
                 <mat-label>{{contact.email}}</mat-label>
                 <input matInput type="email" formControlName="contact-email">
@@ -31,14 +31,14 @@
                 </mat-select>
               </mat-form-field>
             </div>
-            <div class="w-full">
+            <div class="flex flex-col md:min-w-40 w-full">
               <mat-form-field appearance="fill">
                 <mat-label>{{contact.phone}}</mat-label>
                 <input matInput type="text" formControlName="contact-phone" placeholder="" inputmode="numeric">
               </mat-form-field>
             </div>
           </div>
-          <div class="mb-4 w-full">
+          <div class="mb-4 flex flex-col md:min-w-40 w-full">
             <mat-form-field appearance="fill" class="w-full">
               <mat-label>{{contact.message}}</mat-label>
               <textarea matInput rows="5" formControlName="contact-message"></textarea>

@@ -23,15 +23,7 @@ Copy the Angular JS 2 theme to _palette.scss.
 ## Deploy to GitHub Pages
 ng build --base-href "https://talentlokal.github.io/BLE-Angular/"
 
-cd dist/ble-angular
+Copy files gh folder and upload with github desktop to gh-pages branch. Deployment starts automatically.
 
-git add .
-
-git commit -m "Initial commit"
-
-git checkout -b gh-pages
-
-git push
-
-Result can be seen here https://talentlokal.github.io/BLE-Angular/home
+Result can be seen here https://talentlokal.github.io/BLE-Angular/home after approx. 2 minutes.
 But be aware that the gh-pages branch is not the main branch and therefore not always up to date.
