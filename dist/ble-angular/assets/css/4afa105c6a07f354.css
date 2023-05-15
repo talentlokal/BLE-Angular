@@ -40,7 +40,7 @@ table {
   border-color: inherit
 }
 
-button, input, optgroup, select, textarea {
+button, optgroup, select, textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0
@@ -140,14 +140,6 @@ textarea {
   resize: vertical
 }
 
-input::-moz-placeholder, textarea::-moz-placeholder {
-  color: #9ca3af
-}
-
-input::placeholder, textarea::placeholder {
-  color: #9ca3af
-}
-
 [role=button], button {
   cursor: pointer
 }
@@ -170,7 +162,7 @@ a {
   text-decoration: inherit
 }
 
-button, input, optgroup, select, textarea {
+button, optgroup, select, textarea {
   padding: 0;
   line-height: inherit;
   color: inherit
@@ -262,16 +254,6 @@ img, video {
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   border-color: #2563eb
-}
-
-input::-moz-placeholder, textarea::-moz-placeholder {
-  color: #6b7280;
-  opacity: 1
-}
-
-input::placeholder, textarea::placeholder {
-  color: #6b7280;
-  opacity: 1
 }
 
 ::-webkit-datetime-edit-fields-wrapper {
@@ -2182,182 +2164,6 @@ pre {
   scroll-margin-top: 80px
 }
 
-label {
-  display: block;
-  font-size: 14px;
-  font-weight: 400;
-  color: rgba(55, 65, 81, var(--tw-text-opacity))
-}
-
-label, label.lg {
-  line-height: 16px;
-  --tw-text-opacity: 1
-}
-
-label.lg {
-  font-size: 16px;
-  font-weight: 500;
-  color: rgba(17, 24, 39, var(--tw-text-opacity))
-}
-
-label.helper {
-  font-weight: 500;
-  --tw-text-opacity: 1;
-  color: rgba(107, 114, 128, var(--tw-text-opacity))
-}
-
-.input, input[type=email]:not(.error), input[type=password]:not(.error), input[type=text]:not(.error), select:not(.error):not(.clean) {
-  display: block;
-  width: 100%;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-radius: .375rem;
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgba(209, 213, 219, var(--tw-border-opacity));
-  padding: .5rem .75rem
-}
-
-.input::-moz-placeholder, input[type=email]:not(.error)::-moz-placeholder,
-input[type=password]:not(.error)::-moz-placeholder, input[type=text]:not(.error)::-moz-placeholder, select:not(.error):not(.clean)::-moz-placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgba(156, 163, 175, var(--tw-placeholder-opacity))
-}
-
-.input::placeholder, input[type=email]:not(.error)::placeholder,
-input[type=password]:not(.error)::placeholder, input[type=text]:not(.error)::placeholder, select:not(.error):not(.clean)::placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgba(156, 163, 175, var(--tw-placeholder-opacity))
-}
-
-.input, input[type=email]:not(.error), input[type=password]:not(.error), input[type=text]:not(.error), select:not(.error):not(.clean) {
-  --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, #0000), var(--tw-shadow)
-}
-
-.input:focus, input[type=email]:not(.error):focus, input[type=password]:not(.error):focus,
-input[type=text]:not(.error):focus, select:not(.error):not(.clean):focus {
-  --tw-border-opacity: 1;
-  border-color: rgba(99, 102, 241, var(--tw-border-opacity));
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(99, 102, 241, var(--tw-ring-opacity))
-}
-
-.input.prefix, input[type=email]:not(.error).prefix, input[type=password]:not(.error).prefix,
-input[type=text]:not(.error).prefix, select:not(.error):not(.clean).prefix {
-  border-radius: 0;
-  border-top-right-radius: .375rem;
-  border-bottom-right-radius: .375rem
-}
-
-.input:-moz-read-only, input[type=email]:not(.error):-moz-read-only, input[type=password]:not(.error):-moz-read-only,
-input[type=text]:not(.error):-moz-read-only, select:not(.error):not(.clean):-moz-read-only {
-  cursor: not-allowed;
-  --tw-bg-opacity: 1;
-  background-color: rgba(249, 250, 251, var(--tw-bg-opacity))
-}
-
-.input:read-only, input[type=email]:not(.error):read-only, input[type=password]:not(.error):read-only,
-input[type=text]:not(.error):read-only, select:not(.error):not(.clean):read-only {
-  cursor: not-allowed;
-  --tw-bg-opacity: 1;
-  background-color: rgba(249, 250, 251, var(--tw-bg-opacity))
-}
-
-.input:-moz-read-only:focus, input[type=email]:not(.error):-moz-read-only:focus,
-input[type=password]:not(.error):-moz-read-only:focus, input[type=text]:not(.error):-moz-read-only:focus, select:not(.error):not(.clean):-moz-read-only:focus {
-  --tw-border-opacity: 1;
-  border-color: rgba(209, 213, 219, var(--tw-border-opacity));
-  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, #0000)
-}
-
-.input:read-only:focus, input[type=email]:not(.error):read-only:focus, input[type=password]:not(.error):read-only:focus, input[type=text]:not(.error):read-only:focus, select:not(.error):not(.clean):read-only:focus {
-  --tw-border-opacity: 1;
-  border-color: rgba(209, 213, 219, var(--tw-border-opacity));
-  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, #0000)
-}
-
-.input.leading-icon, input[type=email]:not(.error).leading-icon, input[type=password]:not(.error).leading-icon, input[type=text]:not(.error).leading-icon, select:not(.error):not(.clean).leading-icon {
-  padding-left: 2.5rem
-}
-
-input[type=email].error, input[type=password].error, input[type=text].error, select.error {
-  display: block;
-  width: 100%;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-radius: .375rem;
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgba(220, 38, 38, var(--tw-border-opacity));
-  padding: .5rem .75rem
-}
-
-input[type=email].error::-moz-placeholder, input[type=password].error::-moz-placeholder, input[type=text].error::-moz-placeholder, select.error::-moz-placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgba(252, 165, 165, var(--tw-placeholder-opacity))
-}
-
-input[type=email].error::placeholder, input[type=password].error::placeholder, input[type=text].error::placeholder, select.error::placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgba(252, 165, 165, var(--tw-placeholder-opacity))
-}
-
-input[type=email].error, input[type=password].error, input[type=text].error, select.error {
-  --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, #0000), var(--tw-shadow)
-}
-
-input[type=email].error:focus, input[type=password].error:focus, input[type=text].error:focus, select.error:focus {
-  --tw-border-opacity: 1;
-  border-color: rgba(239, 68, 68, var(--tw-border-opacity));
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(239, 68, 68, var(--tw-ring-opacity))
-}
-
-select.clean {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: transparent;
-  background-image: none;
-  padding: 0;
-  font-size: 14px;
-  line-height: 16px;
-  font-weight: 400
-}
-
-select.clean, select.clean:focus {
-  border-width: 0;
-  outline: 2px solid transparent;
-  outline-offset: 2px
-}
-
-input[type=checkbox], input[type=checkbox]:checked {
-  height: 1rem;
-  width: 1rem;
-  border-radius: .25rem;
-  --tw-border-opacity: 1;
-  border-color: rgba(209, 213, 219, var(--tw-border-opacity));
-  --tw-text-opacity: 1;
-  color: rgba(79, 70, 229, var(--tw-text-opacity))
-}
-
-input[type=checkbox]:checked:focus, input[type=checkbox]:focus {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(99, 102, 241, var(--tw-ring-opacity))
-}
-
 a.button.primary, button.primary {
   display: inline-flex;
   align-items: center;
@@ -2661,14 +2467,6 @@ a.button.attention:disabled, button.attention:disabled {
 
 .round-button.light:disabled {
   opacity: .6
-}
-
-button.date-input {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  justify-content: flex-start !important
 }
 
 .select-flags input {

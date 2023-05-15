@@ -179,31 +179,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.2rem;
 }
 
-#contact {
-  background-color: #FFFFFF;
-}
 
-#contact .text-label {
-  color: #111827;
-}
-
-#contact input,
-#contact textarea,
-#contact button {
-  border-radius: 8px;
-  background-color: rgba(0, 0, 0, 0.07);
-  color: #111827;
-}
-
-#contact button.primary {
-  background: rgb(172 31 25);
-  border: 2px solid rgb(172 31 25);
-  color: #ffffff;
-}
-
-#contact a {
-  color: #111827;
-}
 
 .map {
   margin: 30px 0;
