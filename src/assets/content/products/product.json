@@ -1,0 +1,70 @@
+{
+  "product": {
+    "title": "Ergonomischer Xenon Drehstuhl von Profirm",
+    "text": "Entdecken Sie den Xenon Drehstuhl von Profirm - Ihr perfekter Partner für eine gesunde und bequeme\n            Arbeitserfahrung. Dieser ergonomisch designte Bürostuhl fördert eine optimale Körperhaltung und beugt\n            Rückenschmerzen und Verspannungen vor. Genießen Sie maximalen Komfort und steigern Sie Ihre Produktivität mit dem Xenon Drehstuhl.",
+    "listTitle": "Produktdetails",
+    "items": [
+      {
+        "name": "Anpassungsfähigkeit",
+        "description": ": Verstellbare Sitzhöhe, Armlehnen und Rückenlehne sorgen für individuellen Komfort und perfekte Anpassung an Ihre Körpergröße."
+      },
+      {
+        "name": "Ergonomisches Design",
+        "description": ": Die spezielle S-förmige Rückenlehne unterstützt die natürliche Krümmung Ihrer Wirbelsäule und fördert eine gesunde Sitzhaltung."
+      },
+      {
+        "name": "Atmungsaktiver Netzstoff",
+        "description": ": Das hochwertige Mesh-Material gewährleistet Luftzirkulation und verhindert unangenehme Wärmestauungen."
+      }
+    ,
+      {
+        "name": "Stabile Konstruktion",
+        "description": ": Die strapazierfähige Basis und das robuste Rahmendesign garantieren Langlebigkeit und Stabilität für jahrelangen Gebrauch."
+      }
+    ,
+      {
+        "name": "Leichtgängige Rollen",
+        "description": ": Die leichtgängigen, bodenschonenden Rollen ermöglichen mühelose Mobilität und Flexibilität am Arbeitsplatz."
+      }
+    ],
+    "postText": "Investieren Sie in Ihre Gesundheit und Wohlbefinden mit dem Xenon Drehstuhl von Profirm. Bestellen Sie jetzt und erleben Sie den Unterschied eines ergonomischen Bürostuhls!",
+    "cta": {
+      "text": "Kontaktieren",
+      "link": "https://www.amazon.de/dp/B07Z8QZQZS?ref=myi_title_dp"
+    },
+    "image": "assets/img/office.webp",
+    "alt": "Ergonomischer Xenon Drehstuhl von Profirm"
+  },
+  "references": [
+    {
+      "title": "Profirm",
+      "image": "assets/img/office.webp",
+      "alt": "Profirm",
+      "text": "„Sie möchten mehr über Profirm erfahren? Als renommierte Marke im Bereich ergonomischer Büromöbel steht Profirm für höchste Qualität und innovative Lösungen, um Ihren Arbeitsplatz in eine Wohlfühloase zu verwandeln. Unsere Experten arbeiten kontinuierlich daran, die neuesten wissenschaftlichen Erkenntnisse und Technologien in unsere Produkte zu integrieren, um Ihnen ein unvergleichliches Sitz- und Arbeitserlebnis zu bieten.",
+      "cta": {
+        "text": "Mehr erfahren",
+        "link": "https://www.amazon.de/dp/B07Z8QZQZS?ref=myi_title_dp"
+      }
+    },
+    {
+      "title": "Profirm Gesamtkatalog",
+      "image": "assets/img/office.webp",
+      "alt": "Profirm",
+      "text": "„Möchten Sie das gesamte Sortiment von\n            Profirm bequem von zu Hause oder dem Büro aus entdecken? Laden Sie jetzt unseren aktuellen Profirm\n            Katalog als PDF herunter!",
+      "cta": {
+        "text": "Mehr erfahren",
+        "link": "https://www.amazon.de/dp/B07Z8QZQZS?ref=myi_title_dp"
+      }
+    },
+    {
+      "title": "Lassen Sie sich persönlich von uns beraten",
+      "image": "assets/img/office.webp",
+      "alt": "Profirm",
+      "text": "„Sie möchten mehr über Profirm erfahren? Als renommierte Marke im Bereich ergonomischer Büromöbel steht Profirm für höchste Qualität und innovative Lösungen, um Ihren Arbeitsplatz in eine Wohlfühloase zu verwandeln. Unsere Experten arbeiten kontinuierlich daran, die neuesten wissenschaftlichen Erkenntnisse und Technologien in unsere Produkte zu integrieren, um Ihnen ein unvergleichliches Sitz- und Arbeitserlebnis zu bieten.",
+      "cta": {
+        "text": "Mehr erfahren",
+        "link": "https://www.amazon.de/dp/B07Z8QZQZS?ref=myi_title_dp"
+      }
+    }
+  ]
+}

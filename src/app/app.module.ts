@@ -17,10 +17,12 @@ import {ReactiveFormsModule} from "@angular/forms";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatSelectModule} from "@angular/material/select";
 import {MatInputModule} from "@angular/material/input";
+import {ProductComponent} from './product/product.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'product', component: ProductComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
 @NgModule({
@@ -28,6 +30,7 @@ const routes: Routes = [
     AppComponent,
     HomeComponent,
     AboutComponent,
+    ProductComponent,
   ],
   imports: [
     BrowserModule,
