@@ -1,0 +1,75 @@
+{
+  "main": {
+    "title": "Entdecken Sie Bosse Büromöbel – Innovative und moderne Lösungen für Ihr Büro",
+    "texts": [
+      {"text": "Willkommen bei Bosse Büromöbel, einem führenden Hersteller von hochwertigen Büromöbeln! Bei uns\n              finden Sie eine exklusive Auswahl an stilvollen und ergonomischen Büroeinrichtungen, die perfekt auf\n              die Bedürfnisse anspruchsvoller Kunden zugeschnitten sind. Als renommierter Anbieter im Bereich der\n              Büromöbel ist Bosse Büromöbel stolz darauf, Ihnen erstklassige Lösungen für ein modernes und\n              effizientes Arbeitsumfeld zu bieten."},
+      {"text": "In unserem umfangreichen Sortiment an Bosse Büromöbeln finden Sie eine Vielzahl von ergonomischen\n              Stühlen, Schreibtischen, Büroschränken, Konferenztischen und weiteren Accessoires, die für\n              unterschiedliche Branchen und Anforderungen geeignet sind. Unsere Produkte sind in verschiedenen\n              Materialien, Farben und Stilen erhältlich, sodass Sie ganz einfach das passende Möbelstück für Ihr\n              individuelles Bürodesign auswählen können."},
+      {"text": "Entdecken Sie jetzt unsere exklusive Auswahl an Bosse Büromöbeln und lassen Sie sich von der Qualität\n              und dem einzigartigen Design überzeugen. Machen Sie Ihr Büro zu einem Ort, an dem Sie gerne arbeiten,\n              und investieren Sie in eine Büroeinrichtung, die Ihnen langfristig Freude bereitet."}
+    ],
+    "image": "assets/img/office.webp",
+    "alt": "Ergonomischer Xenon Drehstuhl von Profirm",
+    "cta": {
+      "text": "Kontaktieren",
+      "link": "https://www.amazon.de/dp/B07Z8QZQZS?ref=myi_title_dp"
+    }
+  },
+  "gallery": [
+    {
+      "image": "assets/img/office.webp",
+      "alt": "Ergonomischer Xenon Drehstuhl von Profirm"
+    },
+    {
+      "image": "assets/img/office.webp",
+      "alt": "Ergonomischer Xenon Drehstuhl von Profirm"
+    },
+    {
+      "image": "assets/img/office.webp",
+      "alt": "Ergonomischer Xenon Drehstuhl von Profirm"
+    }
+  ],
+
+
+  "products":{
+    "title": "Unsere Produkte",
+    "items": [
+      {
+        "title": "Profirm",
+        "image": "assets/img/office.webp",
+        "alt": "Profirm",
+        "text": "„Sie möchten mehr über Profirm erfahren? Als renommierte Marke im Bereich ergonomischer Büromöbel steht Profirm für höchste Qualität und innovative Lösungen, um Ihren Arbeitsplatz in eine Wohlfühloase zu verwandeln. Unsere Experten arbeiten kontinuierlich daran, die neuesten wissenschaftlichen Erkenntnisse und Technologien in unsere Produkte zu integrieren, um Ihnen ein unvergleichliches Sitz- und Arbeitserlebnis zu bieten.",
+        "cta": {
+          "text": "Mehr Informationen",
+          "link": "https://www.amazon.de/dp/B07Z8QZQZS?ref=myi_title_dp"
+        }
+      },
+      {
+        "title": "Profirm Gesamtkatalog",
+        "image": "assets/img/office.webp",
+        "alt": "Profirm",
+        "text": "„Möchten Sie das gesamte Sortiment von\n            Profirm bequem von zu Hause oder dem Büro aus entdecken? Laden Sie jetzt unseren aktuellen Profirm\n            Katalog als PDF herunter!",
+        "cta": {
+          "text": "Mehr Informationen",
+          "link": "https://www.amazon.de/dp/B07Z8QZQZS?ref=myi_title_dp"
+        }
+      },
+      {
+        "title": "Lassen Sie sich persönlich von uns beraten",
+        "image": "assets/img/office.webp",
+        "alt": "Profirm",
+        "text": "„Sie möchten mehr über Profirm erfahren? Als renommierte Marke im Bereich ergonomischer Büromöbel steht Profirm für höchste Qualität und innovative Lösungen, um Ihren Arbeitsplatz in eine Wohlfühloase zu verwandeln. Unsere Experten arbeiten kontinuierlich daran, die neuesten wissenschaftlichen Erkenntnisse und Technologien in unsere Produkte zu integrieren, um Ihnen ein unvergleichliches Sitz- und Arbeitserlebnis zu bieten.",
+        "cta": {
+          "text": "Mehr Informationen",
+          "link": "https://www.amazon.de/dp/B07Z8QZQZS?ref=myi_title_dp"
+        }
+      }
+    ]
+  },
+  "pdf": {
+    "title": "Profirm Gesamtkatalog",
+    "text": "Möchten Sie das gesamte Sortiment von Profirm bequem von zu Hause oder dem Büro aus entdecken? Laden Sie jetzt unseren aktuellen Profirm Katalog als PDF herunter!",
+    "cta": {
+      "text": "Download PDF",
+      "link": "assets/pdfs/sample.pdf"
+    }
+  }
+}

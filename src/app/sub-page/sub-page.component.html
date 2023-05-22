@@ -1,0 +1,89 @@
+<div class="overflow-x-hidden" *ngIf="main$ | async as main">
+  <section class="flex-shrink-0" style="background-color: rgb(255, 255, 255);">
+    <div class="container mx-auto py-12 lg:py-14 xl:py-20">
+      <div class="flex flex-col lg:flex-row w-full gap-10 lg:gap-20 items-center lg:!flex-row-reverse">
+        <div class="flex-1 flex flex-col items-center lg:items-start">
+          <div class="rich-text-block" style="color: rgb(17, 24, 39);"><h3>{{main.title}}</h3>
+            <p *ngFor="let text of main.texts">{{text.text}}</p>
+          </div>
+
+          <button mat-raised-button class="mat-button button lg mt-6 lg:mt-8 w-full md:w-max" color="accent">
+            <a target="_self" [href]="main.cta.link">{{main.cta.text}}</a>
+          </button>
+
+        </div>
+        <div class="flex-1 flex w-full justify-center lg:justify-start lg:!justify-end">
+          <div class="flex-shrink-0 relative w-full mx-auto aspect-w-3 aspect-h-2">
+            <span class="subpage-image">
+            <img
+              [alt]="main.alt"
+              [src]="main.image"
+              decoding="async" data-nimg="fill" class="rounded-sm image" sizes="100vw"
+              [srcset]="main.image"><noscript></noscript></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <section *ngIf="carousel$ | async as carousel" class="flex-shrink-0" style="background-color: rgb(51, 51, 51);">
+      <div class="">
+        <div class="gallery-carousel">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-10 mb-6 md:mb-10">
+            <div *ngFor="let image of carousel" class="relative overflow-hidden aspect-w-3 aspect-h-2">
+              <span class="carousel"><img
+              [src]="image.image"
+              decoding="async" data-nimg="fill"
+              [alt]="image.alt"
+              class="image w-full h-full object-center object-cover rounded-sm md:rounded-md lg:rounded-lg" sizes="100vw"
+              [srcset]="image.image"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section class="flex-shrink-0" *ngIf="products$ | async as products">
+    <div class="container mx-auto py-12 lg:py-14 xl:py-20"><h2>{{products.title}}</h2>
+      <div class="flex flex-col sm:flex-row flex-wrap gap-10 justify-center"><span
+        class="hidden justify-center justify-end justify-start"></span>
+        <div class="block-list-item w-full" *ngFor="let item of products.items">
+          <div class="flex-shrink-0 relative mb-6 aspect-w-3 aspect-h-2">
+          <span class="references">
+          <img
+            [alt]="item.alt"
+            [src]="item.image"
+            class="references-image"
+            decoding="async" data-nimg="fill">
+        </span>
+          </div>
+          <div><p class="text-xl lg:text-2xl xl:text-h3 font-medium mb-2"
+                                      style="color: rgb(17, 24, 39); font-family: Rufina, serif; font-weight: 700;">
+            {{item.title}}</p>
+            <div class="rich-text-block" style="color: rgb(17, 24, 39);"><p>{{item.text}}</p></div>
+            <button mat-raised-button class="mat-button button lg mt-6 lg:mt-8 w-full md:w-max" color="primary">
+              <a target="_self" [href]="item.cta.link">{{item.cta.text}}</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section *ngIf="pdf$ | async as pdf" class="flex-shrink-0" style="background-color: rgb(233, 233, 233);">
+      <div class="container py-12 lg:py-14 xl:py-20 mx-auto">
+        <div class="flex flex-col items-center justify-center h-full w-full !font-sans text-lg embed-content">
+          <h1>{{pdf.title}}</h1>
+          <p>{{pdf.text}}</p>
+
+          <button mat-raised-button class="mat-button button lg mt-6 lg:mt-8 w-full md:w-max" color="primary">
+            <a download="" [href]="pdf.cta.link">{{pdf.cta.text}}</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+  <app-contact></app-contact>
+</div>
+
