@@ -22,7 +22,7 @@ import {ProductComponent} from './product/product.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'product', component: ProductComponent },
+  { path: 'product/:name', component: ProductComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
 @NgModule({
